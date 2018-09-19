@@ -7,6 +7,15 @@ and tag the examples you need to debug with `:firebug => true`.
 To use it in Cucumber scenarios, `require 'capybara/firebug/cucumber'` in env.rb,
 and tag the scenarios you need to debug with `@firebug`.
 
+## ACDCORP versions
+We are hosting several gems that our projects are using because bundle requires
+them from the custom fork or original repo where they can get updates and crash our
+projects, therefore, every gem fork contains the following branch(es):
+
+  * fork-stable => Stable or initial branch from the fork
+  * x.x-acdcorp-stable => custom stable version
+  * master => continues development and tracking original repos
+
 ## Firebug Versions
 
 By default, this gem uses Firebug 2.0.2, which is compatible with Firefox 30-32.
